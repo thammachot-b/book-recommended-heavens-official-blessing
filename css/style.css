@@ -1,0 +1,103 @@
+
+
+.chinese-font {
+  font-family: 'Zhi Mang Xing';
+}
+
+.th-font01 {
+  font-family: 'Prompt';
+
+}
+
+.th-font02 {
+  font-family: 'Chakra Petch';
+
+}
+
+.th-font03 {
+  font-family: 'Sriracha';
+
+}
+
+  .card-img {
+    transition: transform 0.3s ease;
+  }
+  .card-img:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    position: relative;
+  }
+
+  .bg-try {
+    background-color: #111616;
+  }
+
+  .zoom-img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1); /* ขยาย 110% */
+  cursor: pointer; /* เปลี่ยน cursor เวลาชี้ */
+}
+
+  .bg-try02 {
+    background-color: rgb(68, 0, 16);
+  }
+
+
+  .custom-toggler {
+  border: 1px solid #ffffff;    /* ขอบสีขาว */
+  color: #ffffff;                /* ตัวอักษรสีขาว */
+  background-color: transparent; /* พื้นหลังใส ถ้าอยากให้โปร่ง */
+}
+
+.custom-toggler i {
+  color: #ffffff;                /* ไอคอนสีขาว */
+}
+
+/* เวลาหนัก hover / focus */
+.custom-toggler:hover,
+.custom-toggler:focus {
+  background-color: rgba(255,255,255,0.1); /* พื้นหลังจาง ๆ เวลาผ่านเม้าส์ */
+  color: #ffffff;
+}
+
+
+  .no-indent {
+  text-indent: 2em;   /* ย่อหน้า 2 ตัวอักษร */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: justify !important;  /* ชิดซ้ายขวาเต็มบรรทัด */
+  white-space: normal !important;
+  line-height: 1.6 !important;
+}
+  
+ .accordion-item {
+    margin-bottom: 1rem; /* ระยะห่างระหว่างกล่อง */
+    border-radius: 50px; /* มุมโค้ง */
+    border: 1px solid #5c0b0b; /* สีแดงเข้ม */
+    overflow: hidden; /* ทำให้มุมโค้งกับเนื้อหาข้างในสัมพันธ์กัน */
+    background-color: #ffe5e5; /* สีพื้นหลังอ่อนเพื่อให้ดูโดดเด่น */
+  }
+
+  .accordion-button {
+    border-radius: 0; /* ป้องกันการมีมุมโค้งซ้อนซ้อน */
+    background-color: #761111; /* สีแดงเข้ม */
+    color: white;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #8b0000; /* สีแดงเข้มกว่าเมื่อเปิดอยู่ */
+    color: white;
+    box-shadow: none;
+  }
+
+  .accordion-body {
+    background-color: #fff0f0; /* สีพื้นหลังอ่อนภายในกล่อง */
+  }
+
+  .footer {
+    padding: 30px;
+
+  }
