@@ -1,5 +1,3 @@
-
-
 .chinese-font {
   font-family: 'Zhi Mang Xing';
 }
@@ -30,6 +28,7 @@
 
   .bg-try {
     background-color: #111616;
+  
   }
 
   .zoom-img {
@@ -42,7 +41,8 @@
 }
 
   .bg-try02 {
-    background-color: rgb(68, 0, 16);
+    background-color: rgba(152, 2, 2, 1);
+
   }
 
 
@@ -101,3 +101,42 @@
     padding: 30px;
 
   }
+ /* ป้องกัน scroll แนวนอน */
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* carousel เต็ม container แต่ responsive */
+.carousel {
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;         /* ใช้ responsive แทน 100vw */
+  height: auto;        /* สูงปรับตามสัดส่วน */
+  object-fit: cover;   /* ครอบเต็ม container */
+}
+
+/* ปรับ caption ให้ไม่ล้น */
+.carousel-caption {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 90%;       /* ไม่ให้เกินขอบจอ */
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
