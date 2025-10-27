@@ -45,10 +45,10 @@
   cursor: pointer; /* เปลี่ยน cursor เวลาชี้ */
 }
 
-  .bg-try02 {
-    background-color: rgba(152, 2, 2, 1);
+ .bg-try02 {
+    background-color: #800020;
+}
 
-  }
 
 
   .custom-toggler {
