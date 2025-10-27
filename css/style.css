@@ -140,36 +140,4 @@ html, body {
   }
 }
 
-/* กำหนดขนาดฟอนต์เริ่มต้นสำหรับหน้าจอเล็ก (Mobile First) */
-.custom-carousel-title {
-    /* ใช้ค่าที่ใหญ่กว่า fs-1 มาก และใช้ !important เพื่อบังคับใช้ */
-    font-size: 3.5rem !important; 
-}
 
-.custom-carousel-subtitle {
-    font-size: 1.8rem !important;
-}
-
-/* ใช้วิธี Responsive ด้วย Media Queries */
-
-/* สำหรับหน้าจอขนาดกลาง (md - 768px ขึ้นไป) */
-@media (min-width: 768px) {
-    .custom-carousel-title {
-        /* ใช้หน่วย vw (Viewport Width) เพื่อให้ Responsive ตามหน้าจอ */
-        font-size: 5vw !important; 
-    }
-    .custom-carousel-subtitle {
-        font-size: 2.5vw !important;
-    }
-}
-
-/* สำหรับหน้าจอขนาดใหญ่ (xl - 1200px ขึ้นไป) */
-@media (min-width: 1200px) {
-    .custom-carousel-title {
-        /* เพิ่มขนาดให้ใหญ่ที่สุด */
-        font-size: 6vw !important; 
-    }
-    .custom-carousel-subtitle {
-        font-size: 3vw !important;
-    }
-}
