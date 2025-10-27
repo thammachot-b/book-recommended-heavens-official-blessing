@@ -41,9 +41,10 @@
   cursor: pointer; /* เปลี่ยน cursor เวลาชี้ */
 }
 
- .bg-try02 {
-    background-color: #800020;
+.bg-try02 {
+    background-color: #800020 !important;
 }
+
 
 
 
