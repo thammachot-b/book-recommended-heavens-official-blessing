@@ -30,6 +30,41 @@
     background-color: #111616;
   
   }
+/* กำหนดขนาดฟอนต์เริ่มต้นสำหรับหน้าจอเล็ก (Mobile First) */
+.custom-carousel-title {
+    /* ใช้หน่วย rem ที่ใหญ่กว่า fs-1 มาก เพื่อให้ข้อความใหญ่ขึ้นทันที */
+    font-size: 3rem; 
+}
+
+/* ใช้วิธี Responsive ด้วย Media Queries */
+
+/* สำหรับหน้าจอขนาดกลาง (Tablet - 768px ขึ้นไป) */
+@media (min-width: 768px) {
+    .custom-carousel-title {
+        /* ใช้หน่วย vw เพื่อให้ขนาดฟอนต์ปรับตามความกว้างหน้าจอ */
+        /* 5vw หมายถึง 5% ของความกว้างหน้าจอ */
+        font-size: 4vw; 
+    }
+}
+
+/* สำหรับหน้าจอขนาดใหญ่ (Desktop - 1200px ขึ้นไป) */
+@media (min-width: 1200px) {
+    .custom-carousel-title {
+        /* เพิ่มขนาดให้ใหญ่สะใจยิ่งขึ้น */
+        font-size: 5vw; 
+    }
+}
+
+/* กำหนดขนาดสำหรับ Paragraph ให้ใหญ่ตามไปด้วย */
+.custom-carousel-subtitle {
+    font-size: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+    .custom-carousel-subtitle {
+        font-size: 2vw; 
+    }
+}
 
   .zoom-img {
   transition: transform 0.3s ease;
