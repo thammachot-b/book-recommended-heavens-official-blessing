@@ -140,3 +140,21 @@ html, body {
   }
 }
 
+    @media (max-width: 576px) {
+  .caption-mobile {
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    padding: 0 1rem !important;
+  }
+
+  .caption-mobile h5 {
+    font-size: 1.2rem !important; /* ปรับขนาดฟอนต์หัวข้อ */
+    padding: 0 !important;
+  }
+
+  .caption-mobile p {
+    font-size: 1rem !important; /* ปรับขนาดฟอนต์ย่อหน้า */
+    padding: 0 !important;
+  }
+}
