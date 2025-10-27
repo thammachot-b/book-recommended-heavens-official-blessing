@@ -1,7 +1,4 @@
-body {
-    /* บังคับซ่อนส่วนเกินแนวนอนทั้งหมด */
-    overflow-x: hidden !important; 
-}
+
 
 .chinese-font {
   font-family: 'Zhi Mang Xing';
